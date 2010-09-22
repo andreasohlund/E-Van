@@ -13,7 +13,7 @@ namespace OrderInput
             IBus bus = Configure.With()
                 .Log4Net<ConsoleAppender>(a =>
                     {
-                        a.Threshold = Level.Info;
+                        a.Threshold = Level.Warn;
                     })
                 .DefaultBuilder()
                 .XmlSerializer()

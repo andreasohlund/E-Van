@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderInput", "OrderInput\Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Messages", "..\OrderService.Messages\OrderService.Messages.csproj", "{44E4ABA7-6D6F-44D7-BF4C-C795A264891B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{DB470416-BCB3-4916-B99D-9A9A04C0170C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{44E4ABA7-6D6F-44D7-BF4C-C795A264891B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{44E4ABA7-6D6F-44D7-BF4C-C795A264891B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{44E4ABA7-6D6F-44D7-BF4C-C795A264891B}.Release|x86.ActiveCfg = Release|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DB470416-BCB3-4916-B99D-9A9A04C0170C}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
