@@ -17,7 +17,7 @@ namespace OrderService
         {
             Console.WriteLine(string.Format("An order for product {0} arrived",message.ProductId));
 
-            bus.Return(CommandOutcome.Success.GetHashCode());
+            bus.Reply(new CompleteSaleResponse{Outcome=CommandOutcome.Success,CommandId = bus.CurrentMessageContext.Id});
         }
     }
 }

@@ -19,6 +19,7 @@ namespace OrderInput
                 .XmlSerializer()
                 .MsmqTransport()
                 .UnicastBus()
+                .DoNotAutoSubscribe()
                 .LoadMessageHandlers()
                 .CreateBus()
                 .Start();
@@ -33,5 +34,6 @@ namespace OrderInput
          
             
         }
+
     }
 }
