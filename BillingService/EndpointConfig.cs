@@ -2,14 +2,14 @@ using log4net.Appender;
 using log4net.Core;
 using NServiceBus;
 
-namespace OrderService
+namespace BillingService
 {
-    public class EndpointConfig:IConfigureThisEndpoint,AsA_Publisher
+    public class EndpointConfig:IConfigureThisEndpoint,AsA_Server
     {
         
     }
 
-    internal class LoggingConfig:IConfigureLoggingForProfile<Lite>
+    internal class LoggingConfig:IConfigureLoggingForProfile<NServiceBus.Lite>
     {
         public void Configure(IConfigureThisEndpoint specifier)
         {
