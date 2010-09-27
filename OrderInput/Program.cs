@@ -23,9 +23,15 @@ namespace OrderInput
                 .CreateBus()
                 .Start();
 
-            bus.Send(new CompleteSaleCommand{ProductId = 2, Quantity = 3});
-
-            Console.ReadLine();
+            while(Console.ReadLine() != "q")
+            {
+                bus.Send(new CompleteSaleCommand { ProductId = 2, Quantity = 3 })
+                    .Register<CommandOutcome>(x => Console.WriteLine("CommandOutcome: " + x));
+                Console.WriteLine("Command sent");
+       
+            }
+         
+            
         }
     }
 }
